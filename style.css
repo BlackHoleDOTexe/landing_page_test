@@ -166,3 +166,7 @@ body{
     width: 340px;
     height: 40px;
 }
+
+.boxInputError{
+    border-color: red;
+}

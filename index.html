@@ -38,7 +38,7 @@
             </p>
         </div>
         <div class="sub-form">
-            <form>
+            <form id="form">
                 <label for="name">Seu nome:</label>
                 <input type="text" name="name" id="inputName" maxlength="64">
                 <label for="email">E-mail:</label>
@@ -48,14 +48,14 @@
                 <div class="checkboxes">
                     
                     <label for="sexo_masculino">
-                        <input type="checkbox" name="sexo_masculino" id="check_masculino" value="masculino">Masculino
+                        <input type="radio" name="sexo" id="check_masculino" value="masculino">Masculino
                     </label>
                     
                     <label for="sexo_feminino">
-                        <input type="checkbox" name="sexo_feminino" id="check_feminino" value="feminino">Feminino
+                        <input type="radio" name="sexo" id="check_feminino" value="feminino">Feminino
                     </label>
                 </div>
-                <button type="submit">Enviar</button>
+                <button id="submit" type="submit">Enviar</button>
             </form>
         </div>
     </section>
